@@ -2,11 +2,22 @@ body {
 	margin: 0;
 }
 
-.wrapper {
+
+
+.headings{
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: repeat(38, minmax(75px, auto));
+	grid-template-rows: repeat(2, minmax(75px, auto));
 	position: relative;
+	
+}
+
+.headings h1{
+	grid-column: 2/4;
+}
+
+#Title{
+	font-size: 60px;
 }
 
 .heading1,.heading2,.heading3,.heading4,.heading5,.heading6 {
@@ -20,3 +31,23 @@ body {
     font-family: ;*/
 }
 
+.card-layout{
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: repeat(102, minmax(75px, auto));
+	position: relative;
+	background-color: red;
+}
+
+.card{
+	background-color: gray;
+	grid-column: 2/4;
+	grid-row: 2/6;
+}
+
+.colored-card{
+	background-color: blue;
+	grid-column: 2/4;
+	grid-row: 4/6;
+	z-index: 1;
+}
