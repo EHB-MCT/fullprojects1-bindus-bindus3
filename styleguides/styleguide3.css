@@ -210,6 +210,7 @@ td {
 	grid-column: 2/12;
 }
 
+/*https://www.30secondsofcode.org/css/s/hover-underline-animatio*/
 .link-underline-hover {
 	display: inline-block;
 	position: relative;
@@ -237,6 +238,7 @@ td {
 	grid-column: 2/12;
 }
 
+/*https://www.w3schools.com/howto/howto_css_animate_buttons.asp*/
 .buttonExample {
 	border-radius: 4px;
 	background-color: #b7dcdb;
