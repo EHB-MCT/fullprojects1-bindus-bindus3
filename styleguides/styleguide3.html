@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="styleguide2.css" />
+		<link rel="stylesheet" href="styleguide3.css" />
 		<title>Bindus 03</title>
 	</head>
 
@@ -18,66 +18,55 @@
 			<div class="leftNavbar">
 				<div class="navlist">
 					<hr />
-					<a href="#"><h3>Colors</h3></a>
-					<a href="#"><h3>Typography</h3></a>
-					<a href="#"><h3>Links</h3></a>
-					<a href="#"><h3>Buttons</h3></a>
-					<a href="#"><h3>Icons</h3></a>
-					<a href="#"><h3>Logo</h3></a>
+					<a href="#Colors"><h3>Color palette</h3></a>
+					<a href="#Fonts"><h3>Typography</h3></a>
+					<a href="#Links"><h3>Links</h3></a>
+					<a href="#Icons"><h3>Icons</h3></a>
+					<!--<a href="#"><h3>Logo</h3></a>-->
 					<hr />
 				</div>
 			</div>
 			<div class="wrapper">
 				<!--Kleuren-->
-				<div class="Colors">
+				<div class="Colors" id="Colors">
 					<h2>Color palette</h2>
 					<h3>Primary colors</h3>
 					<div class="card-layout">
 						<div class="card">
-							<div class="card-top-b7dcdb"></div>
-							<div class="card-bottom-b7dcdb">
-								<h3>Kleurnaam</h3>
-								<p>#b7dcdb</p>
+							<div class="card-top-E94F1D"></div>
+							<div class="card-bottom-E94F1D">
+								<p>#E94F1D</p>
 							</div>
-							<div class="card-top-043c4c"></div>
-							<div class="card-bottom-043c4c">
-								<h3>Kleurnaam</h3>
-								<p>#1b1f24</p>
+							<div class="card-top-0011A0"></div>
+							<div class="card-bottom-0011A0">
+								<p>#0011A0</p>
+								<p></p>
 							</div>
-							<div class="card-top-04838b"></div>
-							<div class="card-bottom-04838b">
-								<h3>Kleurnaam</h3>
-								<p>#04838b</p>
+
+							<div class="card-top-44B2E6"></div>
+							<div class="card-bottom-44B2E6">
+								<p>#44B2E6</p>
 							</div>
-							<div class="card-top-5b7f8a"></div>
-							<div class="card-bottom-5b7f8a">
-								<h3>Kleurnaam</h3>
-								<p>#5b7f8a</p>
+							<div class="card-top-D63275"></div>
+							<div class="card-bottom-D63275">
+								<p>#D63275</p>
 							</div>
 						</div>
 						<div class="color-subtitle">
 							<h3>Secondary colors</h3>
 						</div>
 						<div class="card">
-							<div class="card-top-b7dcdb"></div>
-							<div class="card-bottom-b7dcdb">
-								<h3>Kleurnaam</h3>
-								<p>#b7dcdb</p>
+							<div class="card-top-F7F3F2"></div>
+							<div class="card-bottom-F7F3F2">
+								<p>#F7F3F2</p>
 							</div>
-							<div class="card-top-043c4c"></div>
-							<div class="card-bottom-043c4c">
-								<h3>Kleurnaam</h3>
-								<p>#1b1f24</p>
+							<div class="card-top-070404"></div>
+							<div class="card-bottom-070404">
+								<p>#070404</p>
 							</div>
-							<div class="card-top-04838b"></div>
-							<div class="card-bottom-04838b">
-								<h3>Kleurnaam</h3>
-								<p>#04838b</p>
-							</div>
-							<div class="card-top-5b7f8a"></div>
-							<div class="card-bottom-5b7f8a">
-								<h3>Kleurnaam</h3>
-								<p>#5b7f8a</p>
+							<div class="card-top-75C5C0"></div>
+							<div class="card-bottom-75C5C0">
+								<p>#75C5C0</p>
 							</div>
 						</div>
 						<hr class="divider1" />
@@ -85,37 +74,59 @@
 					</div>
 				</div>
 				<!--Typography-->
-				<div class="Fonts">
-					<h2>Fonts</h2>
+				<div class="Fonts" id="Fonts">
+					<h2>Typography</h2>
 					<div class="fontTable">
 						<div class="fontTable-layout">
+							<div class="font-divider">
+								<hr />
+								<p>The quick brown fox jumps over the lazy dog</p>
+							</div>
+							<img src="/images/fontExample.png" class="fontExample" />
 							<table>
 								<thead>
-									<tr>
-										<th><h2>Display name</h2></th>
-										<th><h2>Font weight</h2></th>
-										<th><h2>Font size</h2></th>
-										<th><h2>Font name</h2></th>
+									<tr
+										style="
+											background-color: #003d7f;
+											color: white;
+											text-align: center;
+										"
+									>
+										<th><h3>Display</h3></th>
+										<th><h3>Display name</h3></th>
+										<th><h3>Font weight</h3></th>
+										<th><h3>Font size</h3></th>
+										<th><h3>Device</h3></th>
 									</tr>
 								</thead>
 								<tbody>
-									<tr style="font-family: NexaBold">
-										<td>&</td>
-										<td>Bold</td>
-										<td>&</td>
-										<td>Nexa</td>
+									<tr style="font-family: Marion">
+										<td><h1 style="font-size: 48px">Heading 1</h1></td>
+										<td style="text-align: center">H1</td>
+										<td style="text-align: center">Regular</td>
+										<td style="text-align: center">48px</td>
+										<td style="text-align: center">Desktop</td>
 									</tr>
-									<tr style="font-family: NexaRegular">
-										<td>&</td>
-										<td>Regular</td>
-										<td>&</td>
-										<td>Nexa</td>
+									<tr style="font-family: MarionBold">
+										<td><h2 style="font-size: 42px">Heading 2</h2></td>
+										<td style="text-align: center">H2</td>
+										<td style="text-align: center">Bold</td>
+										<td style="text-align: center">48px</td>
+										<td style="text-align: center">Desktop/Mobile</td>
 									</tr>
-									<tr style="font-family: NexaLight">
-										<td>&</td>
-										<td>Light</td>
-										<td>&</td>
-										<td>Nexa</td>
+									<tr style="font-family: Marion">
+										<td><h3 style="font-size: 32px">Subtitle 1</h3></td>
+										<td style="text-align: center">H3</td>
+										<td style="text-align: center">Regular</td>
+										<td style="text-align: center">48px</td>
+										<td style="text-align: center">Desktop/Mobile</td>
+									</tr>
+									<tr style="font-family: MarionBold">
+										<td><h4 style="font-size: 28px">Subtitle 2</h4></td>
+										<td style="text-align: center">H4</td>
+										<td style="text-align: center">Bold</td>
+										<td style="text-align: center">48px</td>
+										<td style="text-align: center">Desktop/Mobile</td>
 									</tr>
 								</tbody>
 							</table>
@@ -124,26 +135,34 @@
 					<hr class="divider1" />
 				</div>
 				<!--Links-->
-				<div class="Links">
-					<h2>Links</h2>
-					<a><p class="link-underline-hover">Homepage</p></a><br />
-					<a><p class="link-underline-hover">Wie is Bindus?</p></a><br />
-					<a><p class="link-underline-hover">Contact</p></a>
-					<hr class="divider1" />
-				</div>
-				<!--Buttons-->
-				<div class="Buttons">
-					<h2>Buttons</h2>
-					<button class="buttonExample"><span>Hover</span></button><hr class="divider1" />
+				<div class="Links" id="Links">
+					<h2>Buttons & Links</h2>
+					<div class="linkContent">
+						<a class="link1"><h3 class="link-underline-hover">Homepage</h3></a
+						><br />
+						<a class="link2"
+							><h3 class="link-underline-hover">Wie is Bindus?</h3></a
+						><br />
+						<a class="link3"><h3 class="link-underline-hover">Contact</h3></a
+						><br />
+						<button class="buttonExample" id="button1">
+							<span>Hover</span>
+						</button>
+						<button class="button2"><span>Static</span></button>
+						<button class="button3"><span>On hover </span></button>
+					</div><hr class="divider1" />
 				</div>
 				<!--Icons-->
-				<div class="Icons">
-					<h2>Icons</h2><hr class="divider1" />
+				<div class="Icons" id="Icons">
+					<h2>Icons</h2>
+					<img src="/Icons/icons8-facebook.svg" alt="facebook icon"> <!--https://icons8.com/icon/118487/facebook-->
+					<img src="/Icons/icons8-instagram.svg" alt="instagram icon"> <!--https://icons8.com/icon/85154/instagram-->
+					<img src="/Icons/icons8-twitter.svg" alt="instagram icon"> <!--https://icons8.com/icon/102891/twitter-->
 				</div>
-				<!--Logo-->
+				<!--Logo
 				<div class="Logo">
 					<h2>Logo</h2>
-				</div>
+				</div>-->
 			</div>
 		</div>
 	</body>
