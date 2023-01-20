@@ -1,38 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
-@font-face {
-	font-family: "NexaBold";
-	src: url("/fonts/NexaBold.otf") format("opentype");
-}
-
-@font-face {
-	font-family: "NexaRegular";
-	src: url("/fonts/Nexa\ Regular.otf") format("opentype");
-}
-
-@font-face {
-	font-family: "lineto-circular";
-	src: url("/fonts/lineto-circular-book.ttf") format("opentype");
-}
-
-@font-face {
-	font-family: "NexaLight";
-	src: url("/fonts/NexaLight.otf") format("opentype");
-}
-
-@font-face {
-	font-family: "MinionPro";
-	src: url("/fonts/MinionPro-Regular.otf") format("opentype");
-}
-
-@font-face {
-	font-family: "Opensans";
-	src: url("/fonts/opensans-regular.668362de763a.ttf") format("opentype");
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
 body {
 	margin: 0;
-	background-color: rgb(244, 238, 229);
+	font-family: "font-family: Montserrat, sans-serif";
 }
 
 .wrapperTitle {
@@ -180,12 +149,6 @@ body {
 .Fonts {
 	grid-column: 2/12;
 	grid-row: 2;
-	color: #736357;
-}
-
-.fonts-subtitles h2 {
-	grid-column: 2/12;
-	color: #736357;
 }
 
 .fontTable-layout {
@@ -199,14 +162,7 @@ table {
 	table-layout: fixed;
 	grid-column: 1/13;
 	text-align: center;
-	border-collapse:separate; 
-	border-spacing: 0 10px;
-	border-right: none; 
-
-}
-
-tr {
-	margin-bottom: 10px;
+	border-collapse:collapse; 
 }
 
 tr:first-child th:first-child { border-top-left-radius: 10px; }
@@ -220,6 +176,14 @@ td {
 
 .Links {
 	grid-column: 2/12;
+}
+
+.linkContent{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(1, minmax(75px, auto));
+	position: relative;
+	column-gap: 20px;
 }
 
 /*https://www.30secondsofcode.org/css/s/hover-underline-animatio*/
@@ -246,6 +210,21 @@ td {
 	transform-origin: bottom left;
 }
 
+.linkContent a.link1{
+	grid-column: 1/2;
+	grid-row: 1;
+}
+
+.linkContent a.link2{
+	grid-column: 2/3;
+	grid-row: 1;
+}
+
+.linkContent a.link3{
+	grid-column: 3/4;
+	grid-row: 1;
+}
+
 .Buttons {
 	grid-column: 2/12;
 }
@@ -263,6 +242,40 @@ td {
 	cursor: pointer;
 	margin: 5px;
 	border: none;
+	grid-column: 1;
+	grid-row: 2;
+}
+.button2{
+	border-radius: 15px;
+	background-color: #ffff00;
+	color: #736357;
+	text-align: center;
+	font-size: 20px;
+	padding: 5px;
+	width: 200px;
+	cursor: pointer;
+	margin: 5px;
+	border: none;
+	grid-column: 2;
+	grid-row: 2;
+}
+
+.button3{
+	border-radius: 15px;
+	background-color: #ffff00;
+	color: #736357;
+	text-align: center;
+	font-size: 20px;
+	padding: 5px;
+	width: 200px;
+	cursor: pointer;
+	margin: 5px;
+	border: none;
+	grid-column: 3;
+	grid-row: 2;
+}
+.button3::after{
+	content: "\00bb";
 }
 
 .buttonExample span {
