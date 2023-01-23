@@ -1,0 +1,62 @@
+body {
+	background-color: #043c4c;
+	color: white;
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+}
+
+.cijfers1 {
+	text-align: center;
+	padding-top: 5%;
+	background-color: #b7dcdb;
+	width: 250px;
+	height: 150px;
+}
+
+.cijfers {
+	text-align: center;
+	padding-top: 5%;
+	background-color: red;
+	width: 250px;
+	height: 150px;
+	margin-left: 40%;
+}
+
+.cijfers2 {
+	text-align: center;
+	padding-top: 5%;
+	background-color: violet;
+	width: 250px;
+	height: 150px;
+	margin-left: 80%;
+}
+
+.niewsbrief {
+	background-color: #84949c;
+	text-align: center;
+	padding-bottom: 5%;
+	padding-top: 5%;
+}
+
+img {
+	width: 30px;
+}
+
+h2 {
+	text-align: center;
+	padding-bottom: 0;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #043c4c;
+	color: white;
+	text-align: start;
+	/*https://www.w3schools.com/howto/howto_css_fixed_footer.asp*/
+}
