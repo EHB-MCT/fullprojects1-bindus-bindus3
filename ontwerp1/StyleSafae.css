@@ -1,0 +1,149 @@
+body {
+	margin: 0;
+	background-color: #043c4c;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: repeat(10, minmax(100px, auto));
+	margin: 0 auto;
+	position: relative;
+	grid-gap: 20px;
+}
+
+img {
+	width: 50%;
+	grid-column: 2/3;
+	margin-top: 15%;
+}
+h1 {
+	grid-column: 2/6;
+
+	color: aliceblue;
+}
+nav {
+	margin: none;
+	grid-column: 5/13;
+	font-family: sans-serif;
+	margin-right: 35%;
+
+	margin-bottom: 10%;
+	margin-top: 5%;
+	border-radius: 0%;
+	border-radius: 5px;
+	border-color: black;
+	border-width: 5px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+nav ul li {
+	display: inline;
+	padding-left: 10px;
+}
+
+nav ul li a {
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+	color: blanchedalmond;
+}
+.img1 {
+	width: 100%;
+	margin-top: -200px;
+	margin-left: 150px;
+
+}
+.img2 {
+	width: 100%;
+	margin-top: -400px;
+	margin-left: 40px;
+
+}
+.img3 {
+	width: 60%;
+	margin-top: -40px;
+	margin-left: -10px;
+
+}
+
+.Rect {
+	width: 300px;
+	height: 400px;
+	background: #8fc3e1;
+	grid-column: 11/12;
+}
+.illustratie {
+	position: relative;
+	grid-column: 8/12;
+}
+.Cercle1 {
+	/* width: 70px;
+	height: 70px;
+	background: #b5dad9;
+	margin-left: -50px;
+	margin-top: 50px;
+	border-radius: 100%;
+    */
+	width: 70px;
+	height: 70px;
+	background: #b5dad9;
+	border-radius: 100%;
+	position: absolute;
+	top: 20px;
+	right: 150px;
+}
+.Cercle2 {
+	width: 50px;
+	height: 50px;
+	background: #b5dad9;
+	margin-top: -100px;
+	border-radius: 100%;
+	position: absolute;
+	top: 400px;
+	right: 500px;
+}
+.Cercle3 {
+	width: 170px;
+	height: 170px;
+	background: #e23a46;
+	margin-top: -250px;
+	border-radius: 100%;
+	grid-column: 10/12;
+}
+.foto-home {
+	width: 300%;
+	margin-left: -350px;
+	margin-top: -500px;
+}
+
+.cls {
+	fill: none;
+	stroke: red;
+	stroke-miterlimit: 10;
+	stroke-width: 15px;
+	stroke-dasharray: 1000;
+	animation: dash 7s linear;
+}
+
+.lijn {
+	grid-column: 2/12;
+	border-bottom: 5px solid #c5f4ff;
+	margin-bottom: -150px;
+}
+.Partners {
+	color: beige;
+	grid-column: 2/13;
+	margin-top: 200px;
+}
+.bannerP{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 50px;
+    background-color: #e23a46;
+}
