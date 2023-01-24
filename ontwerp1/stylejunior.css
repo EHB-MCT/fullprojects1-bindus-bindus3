@@ -8,37 +8,74 @@ h1 {
 	text-align: center;
 }
 
+.cijfers {
+	padding-top: 5%;
+	background-color: #5eb0b6;
+	width: 50%;
+	height: 250px;
+	margin-left: 20%;
+	position: relative;
+	z-index: 1;
+	color: black;
+	text-align: center;
+}
+
+.insta {
+	margin-left: 5%;
+}
+
+.facebook {
+	margin-left: 5%;
+}
+
+.twitter {
+	margin-left: 5%;
+}
+
 .cijfers1 {
 	text-align: center;
 	padding-top: 5%;
 	background-color: #b7dcdb;
 	width: 250px;
 	height: 150px;
-}
-
-.cijfers {
-	text-align: center;
-	padding-top: 5%;
-	background-color: red;
-	width: 250px;
-	height: 150px;
-	margin-left: 40%;
+	margin-left: -30%;
+	margin-top: -150px;
 }
 
 .cijfers2 {
-	text-align: center;
 	padding-top: 5%;
-	background-color: violet;
-	width: 250px;
+	background-color: #04838b;
+	width: 25%;
+	margin-left: 65%;
+	margin-top: -100px;
 	height: 150px;
-	margin-left: 80%;
+	position: relative;
+	color: black;
+	text-align: center;
+}
+
+.social {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #5eb0b6;
+	width: 50%;
+	margin-left: 25%;
+}
+
+.social div:nth-child(even) {
+	width: 80%;
+}
+
+.social div:nth-child(odd) {
+	width: 20%;
 }
 
 .niewsbrief {
 	background-color: #84949c;
 	text-align: center;
-	padding-bottom: 5%;
+	padding-bottom: 10%;
 	padding-top: 5%;
+	margin-top: 100px;
 }
 
 img {
@@ -59,4 +96,32 @@ h2 {
 	color: white;
 	text-align: start;
 	/*https://www.w3schools.com/howto/howto_css_fixed_footer.asp*/
+}
+
+.button {
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	background-color: #043c4c;
+	border: 2px solid white;
+	border-radius: 12px;
+	width: 150px;
+
+	/*https://www.w3schools.com/tags/tag_button.asp*/
+}
+
+.bureau {
+	width: 200px;
+}
+
+.bureau2 {
+	width: 200px;
+	margin-right: 80%;
+	margin-top: -10%;
 }
