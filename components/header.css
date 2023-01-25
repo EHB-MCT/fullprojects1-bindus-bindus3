@@ -3,7 +3,7 @@ body {
 	background-color: #043c4c;
 }
 
-.wrapper {
+.wrapper-header {
 	grid-template-columns: repeat(12, 1fr);
 	grid-template-rows: repeat(30, minmax(75px, auto));
 	display: grid;
