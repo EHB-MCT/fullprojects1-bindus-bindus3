@@ -1,12 +1,12 @@
 body {
 	margin: 0;
-	background-color: white;
 }
 
 .wrapper-header {
 	grid-template-columns: repeat(12, 1fr);
 	grid-template-rows: repeat(1, minmax(75px, auto));
-	display: grid;
+	display: grid;	
+	background-color: white;
 }
 
 header {
