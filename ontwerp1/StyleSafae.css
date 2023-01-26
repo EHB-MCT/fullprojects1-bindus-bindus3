@@ -22,54 +22,21 @@ h1 {
 
 	color: aliceblue;
 }
-nav {
-	margin: none;
-	grid-column: 5/13;
-	font-family: sans-serif;
-	margin-right: 35%;
 
-	margin-bottom: 10%;
-	margin-top: 5%;
-	border-radius: 0%;
-	border-radius: 5px;
-	border-color: black;
-	border-width: 5px;
-}
-
-nav ul {
-	margin: 0;
-	padding: 0;
-	float: right;
-}
-
-nav ul li {
-	display: inline;
-	padding-left: 10px;
-}
-
-nav ul li a {
-	color: black;
-	font-size: 20px;
-	text-decoration: none;
-	color: blanchedalmond;
-}
 .img1 {
 	width: 100%;
 	margin-top: -200px;
 	margin-left: 150px;
-
 }
 .img2 {
 	width: 100%;
 	margin-top: -400px;
 	margin-left: 40px;
-
 }
 .img3 {
 	width: 60%;
 	margin-top: -40px;
 	margin-left: -10px;
-
 }
 
 .Rect {
@@ -130,20 +97,62 @@ nav ul li a {
 	stroke-dasharray: 1000;
 	animation: dash 7s linear;
 }
+.Partners {
+	margin-right: 60%;
+	margin-left: -790px;
+}
 
 .lijn {
-	grid-column: 2/12;
+
+
 	border-bottom: 5px solid #c5f4ff;
-	margin-bottom: -150px;
+	margin-top: 50px;
+	margin-left: -800px;
 }
-.Partners {
-	color: beige;
-	grid-column: 2/13;
-	margin-top: 200px;
+
+.bannerP {
+	width: 1700px;
+	height: 200px;
+	margin-left: -900px;
+	margin-top: 100px;
+	background-color: #fff;
 }
-.bannerP{
-    width: 50px;
-    height: 50px;
-    margin-bottom: 50px;
-    background-color: #e23a46;
+.svg {
+	margin-top: -150px;
+	padding-right: 50px;
+}
+.logo1 {
+	width: 50%;
+	margin-left: -800px;
+	margin-top: -220px;
+}
+.logo2 {
+	width: 100%;
+	margin-left: -600px;
+	margin-top: -150px;
+}
+.logo3 {
+	width: 100%;
+	margin-left: -270px;
+	margin-top: -170px;
+}
+.logo4 {
+	width: 70%;
+	margin-left: 10px;
+	margin-top: -170px;
+}
+.logo5 {
+	width: 70%;
+	margin-left: 250px;
+	margin-top: -150px;
+}
+
+.hehe{
+	width: 200%;
+	margin-left: -780px;
+	margin-top: 100px;
+}
+
+.p{
+	
 }
