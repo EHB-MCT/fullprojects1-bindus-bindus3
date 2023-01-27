@@ -5,11 +5,31 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="stylejunior.css" />
+		<link rel="stylesheet" href="/components/footer.css" />
+		<link rel="stylesheet" href="/components/header.css" />
+
 		<title>Bindus cijfers</title>
 	</head>
 
 	<body>
-		<header><h1>De impact van Bindus in cijfers 2019</h1></header>
+		<div class="wrapper-header">
+			<header>
+				<img src="/logo/B_logo_cmyk_wit.png" />
+				<nav>
+					<ul>
+						<a href="#"><li>Home</li></a>
+						<a><li>Wie is Bindus?</li></a>
+						<a><li>Hoe gaan we te werk?</li></a>
+						<a><li>Projecten</li></a>
+						<a><li>Partners</li></a>
+						<a><li>Bindusworks</li></a>
+						<a><li>Contact</li></a>
+						<a class="aanmelden" href="#">Aanmelden</a>
+					</ul>
+				</nav>
+			</header>
+		</div>
+		<h1>De impact van Bindus in cijfers 2019</h1>
 
 		<div class="cijfers">
 			<div class="social">
@@ -47,15 +67,53 @@
 			<p>Activiteiten met lidvereningen</p>
 			<p>20 000</p>
 			<p>Mensen bereikt</p>
+			<img src="/images/My project (4).png" class="diversity" />
 		</div>
-
 		<div class="niewsbrief">
 			<h2>Schrijf je in op onze niewsbrief</h2>
-			<p>E-mailadres</p>
+			<a class="button2" href="#">E-mailadress</a>
 			<a class="button" href="#">inschrijven</a>
 		</div>
-		<div class="footer">
-			<img src="/logo/B_logo_cmyk_wit.png" alt="logo" />
+		<div class="wrapper-footer">
+			<footer>
+				<div class="footer-logo">
+					<img src="/logo/B_logo_cmyk_wit.png" />
+				</div>
+				<div class="footer-partner">
+					<h3>Met steun van</h3>
+					<div class="partner-container">
+						<div class="top-row">
+							<img
+								src="/partners/Vlaanderen-verbeelding-werkt_vol_zwart-300x117.png"
+							/>
+							<img
+								src="/partners/vgc_logo_n_horizontaal_administratieblauw_pos.svg"
+							/>
+						</div>
+						<div class="bottom-row">
+							<img src="/partners/Middel-1-1.svg" />
+							<img src="/partners/ESF-1.svg" />
+							<img src="/partners/Antwerpen.svg" />
+						</div>
+					</div>
+				</div>
+				<div class="footer-contact">
+					<h3>Contact</h3>
+					<br />
+					<p>Brederodestraat 188</p>
+					<p>2018 Antwerpen</p>
+					<p>+32 3 289 91 13</p>
+					<p>info@bindusvzw.be</p>
+				</div>
+				<div class="footer-uren">
+					<h3>Openingsuren</h3>
+					<br />
+					<p>Ma tot vrij:</p>
+					<p>09:00 – 12:00</p>
+					<p>12:30 – 17:00</p>
+					<p>Za & zon: gesloten</p>
+				</div>
+			</footer>
 		</div>
 	</body>
 </html>
