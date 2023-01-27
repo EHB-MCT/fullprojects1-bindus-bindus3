@@ -8,8 +8,8 @@ body{
 }
 
 .inner-wrapper{
-    grid-column: 7/12;
-    grid-row: 1/6;
+    grid-column: 1/12;
+    grid-row: 6/12;
     background-color: #8fc3e2;
 }
 
