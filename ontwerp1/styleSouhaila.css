@@ -1,1 +1,20 @@
-/*Rémy c'est le best UwU*/
+body{
+    margin: 0;
+}
+.wrapper{
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows:repeat(13, minmax(75px,auto));
+    display: grid;
+}
+
+.inner-wrapper{
+    grid-column: 7/12;
+    grid-row: 1/6;
+    background-color: #8fc3e2;
+}
+
+.titel {
+    text-align: center;
+    margin-left: 50%;
+}
+
