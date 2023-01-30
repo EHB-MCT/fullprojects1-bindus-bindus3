@@ -1,12 +1,13 @@
 body {
 	margin: 0;
-	color: white;
+
 }
 .wrapper-footer {
 	grid-template-columns: repeat(12, 1fr);
 	grid-template-rows: repeat(1, minmax(75px, auto));
 	display: grid;
 	background-color: #043c4c;
+	color: white;
 }
 
 footer {
