@@ -12,10 +12,10 @@ body {
 
 footer {
 	grid-column: 2/12;
+	grid-row: 1/1;
 	grid-template-columns: repeat(7, 1fr);
 	grid-template-rows: repeat(1, minmax(75px, auto));
 	display: grid;
-	margin-top: 20%;
 }
 
 .footer-logo {
