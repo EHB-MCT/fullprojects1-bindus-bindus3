@@ -7,23 +7,15 @@ body {
 	display: grid;
 }
 
-.inner-wrapper{
-    grid-column: 1/13;
-    grid-row: 1/13;
-     grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: repeat(13, minmax(75px, auto));
-	display: grid;
-}
-
 .topRect {
 	background-color: #043c4c70;
 	grid-column: 1/7;
-    grid-row: 1/6;
+    grid-row: 1/7;
 	width: 100%;
    
 }
 
 #topImg{
     grid-column: 2/6;
-    grid-row: 3/4;
+    grid-row: 2/6;
 }
