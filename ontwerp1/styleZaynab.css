@@ -1,5 +1,10 @@
-body {
-	padding-top: 10px;
-	margin: 0;
-	background-color: white;
+.spacing {
+	padding: 0px 40px;
+}
+
+.hero_page {
+	display: flex;
+	border: 2px solid red;
+	height: 50vh;
+	width: 90vw;
 }
