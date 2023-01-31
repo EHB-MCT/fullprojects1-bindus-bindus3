@@ -12,175 +12,60 @@ body {
 	grid-gap: 20px;
 }
 
-img {
-	width: 50%;
-	grid-column: 2/3;
-	margin-top: 15%;
-}
-h1 {
+
+
+h1.title {
 	grid-column: 2/6;
 	color: #043c4c;
 	font-size: 100px;
 }
 
-.img1 {
-	width: 100%;
-	margin-top: -200px;
-	margin-left: 150px;
-}
-.img2 {
-	width: 100%;
-	margin-top: -470px;
-	margin-left: 40px;
-}
-.img3 {
-	width: 60%;
-	margin-top: -0px;
-	margin-left: -10px;
+.home img{
+	width: 1100px;
+	margin-left: 20%;
+	margin-top: -10%;
 }
 
-.Rect {
-	width: 300px;
-	height: 400px;
-	background: #043c4c;
-	grid-column: 11/12;
-}
-.illustratie {
-	position: relative;
-	grid-column: 8/12;
-}
-.Cercle1 {
-	/* width: 70px;
-	height: 70px;
-	background: #b5dad9;
-	margin-left: -50px;
-	margin-top: 50px;
-	border-radius: 100%;
-    */
-	width: 70px;
-	height: 70px;
-	background: #b5dad9;
-	border-radius: 100%;
-	position: absolute;
-	top: 20px;
-	right: 150px;
-}
-.Cercle2 {
-	width: 50px;
-	height: 50px;
-	background: #b5dad9;
-	margin-top: -100px;
-	border-radius: 100%;
-	position: absolute;
-	top: 400px;
-	right: 500px;
-}
-.Cercle3 {
-	width: 170px;
-	height: 170px;
-	background: #e23a46;
-	margin-top: -250px;
-	border-radius: 100%;
-	grid-column: 10/12;
-}
-.foto-home {
-	width: 300%;
-	margin-left: -350px;
-	margin-top: -500px;
+.lijn{
+width: 10px;
 }
 
-.cls {
-	fill: none;
-	stroke: red;
-	stroke-miterlimit: 10;
-	stroke-width: 15px;
-	stroke-dasharray: 1000;
-	animation: dash 7s linear;
-}
-.Partners {
-	margin-right: 60%;
-	margin-left: -790px;
-}
-
-.lijn {
-	border-bottom: 5px solid #c5f4ff;
-	margin-top: 50px;
-	margin-left: -800px;
-}
-
-.bannerP {
-	width: 1700px;
-	height: 200px;
-	margin-left: -900px;
-	margin-top: 100px;
-	background-color: #043c4c;
-}
-.svg {
-	margin-top: -150px;
-	padding-right: 50px;
-}
-.logo1 {
-	width: 50%;
-	margin-left: -160%;
-	margin-top: -220px;
-}
-.logo2 {
-	width: 100%;
-	margin-left: -120%;
-	margin-top: -150px;
-}
-.logo3 {
-	width: 100%;
-	margin-left: -50%;
-	margin-top: -170px;
-}
-.logo4 {
-	width: 70%;
-	margin-left: 10%;
-	margin-top: -170px;
-}
-.logo5 {
-	width: 70%;
-	margin-left: 60%;
-	margin-top: -150px;
-}
-
-.hehe {
-	width: 200%;
-	margin-left: -780px;
-	margin-top: 100px;
-}
-
-.pratique1 {
-	margin-top: -150%;
-	width: 190%;
-}
-
-.pratique2 {
-	margin-top: -30%;
-	width: 250%;
-	margin-left: -170%;
-}
-
-.oui {
-	margin-top: -130%;
-	width: 180%;
-}
-.lijn2 {
-	border-bottom: 5px solid #c5f4ff;
-	margin-top: 100px;
-	margin-left: -800px;
-}
-
-.wrapper h2 {
-	font-size: 250%;
+.partners{
+	grid-column: 1/13;
+	margin-left: -11%;
 	color: #043c4c;
+	font-size: 40px;
 }
 
-.prtq{
-	width: 100%;
-	margin-top: -270%;
-	margin-right: -50%;
+.bannerP img{
+margin-top: 20%;
+margin-left: -10%;
+width: 100%;
+
+}
+
+.st2 img{
+	
+	width: 50%;
+	margin-bottom: -50%;
+	margin-left: -10%;
+	
+}
+.logo1 img{
+	width: 10%;
+	margin-left: 50%;
+	margin-top: 10%;
+}
+
+.logo2 img{
+	width: 10%;
+	margin-top: 10%;
+	margin-left: -10%;
+}
+
+.st3 img{
+	width: 50%;
+
 }
 
 
