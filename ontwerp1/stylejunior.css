@@ -1,16 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
 body {
-	background-color: #043c4c;
-	color: white;
+	background-color: #ffffff;
+	color: #5eb0b6;
 	margin: 0;
+	font-family: "PT Serif", serif;
 }
 
 h1 {
 	text-align: center;
+	color: #043c4c;
 }
 
 .cijfers {
 	padding-top: 5%;
-	background-color: #5eb0b6;
+	background-color: #2e5d6b;
 	width: 50%;
 	height: 250px;
 	margin-left: 20%;
@@ -36,7 +39,7 @@ h1 {
 	text-align: center;
 	padding-top: 5%;
 	background-color: #b7dcdb;
-	width: 250px;
+	width: 350px;
 	height: 150px;
 	margin-left: -30%;
 	margin-top: -150px;
@@ -57,7 +60,7 @@ h1 {
 .social {
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #5eb0b6;
+	background-color: #2e5d6b;
 	width: 50%;
 	margin-left: 25%;
 }
@@ -71,11 +74,12 @@ h1 {
 }
 
 .niewsbrief {
-	background-color: #84949c;
+	background-color: white;
 	text-align: center;
 	padding-bottom: 10%;
 	padding-top: 5%;
 	margin-top: 100px;
+	color: #043c4c;
 }
 
 img {
@@ -87,20 +91,9 @@ h2 {
 	padding-bottom: 0;
 }
 
-.footer {
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	background-color: #043c4c;
-	color: white;
-	text-align: start;
-	/*https://www.w3schools.com/howto/howto_css_fixed_footer.asp*/
-}
-
 .button {
 	border: none;
-	color: white;
+	color: #043c4c;
 	padding: 15px 32px;
 	text-align: center;
 	text-decoration: none;
@@ -108,8 +101,26 @@ h2 {
 	font-size: 16px;
 	margin: 4px 2px;
 	cursor: pointer;
-	background-color: #043c4c;
-	border: 2px solid white;
+	background-color: white;
+	border: 2px solid #043c4c;
+	border-radius: 12px;
+	width: 150px;
+
+	/*https://www.w3schools.com/tags/tag_button.asp*/
+}
+
+.button2 {
+	border: none;
+	color: #043c4c;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	background-color: white;
+	border: 2px solid #043c4c;
 	border-radius: 12px;
 	width: 150px;
 
@@ -124,4 +135,9 @@ h2 {
 	width: 200px;
 	margin-right: 80%;
 	margin-top: -10%;
+}
+
+.diversity {
+	width: 200px;
+	padding-bottom: 100px;
 }

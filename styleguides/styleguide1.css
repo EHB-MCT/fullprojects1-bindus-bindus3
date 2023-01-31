@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
 body {
 	margin: 0;
 	font-family: "font-family: Montserrat, sans-serif";
@@ -162,13 +162,21 @@ table {
 	table-layout: fixed;
 	grid-column: 1/13;
 	text-align: center;
-	border-collapse:collapse; 
+	border-collapse: collapse;
 }
 
-tr:first-child th:first-child { border-top-left-radius: 10px; }
-tr:first-child th:last-child { border-top-right-radius: 10px; }
-tr:last-child td:first-child { border-bottom-left-radius: 10px; }
-tr:last-child td:last-child { border-bottom-right-radius: 10px; }
+tr:first-child th:first-child {
+	border-top-left-radius: 10px;
+}
+tr:first-child th:last-child {
+	border-top-right-radius: 10px;
+}
+tr:last-child td:first-child {
+	border-bottom-left-radius: 10px;
+}
+tr:last-child td:last-child {
+	border-bottom-right-radius: 10px;
+}
 
 td {
 	width: 25%;
@@ -178,7 +186,7 @@ td {
 	grid-column: 2/12;
 }
 
-.linkContent{
+.linkContent {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(1, minmax(75px, auto));
@@ -210,17 +218,17 @@ td {
 	transform-origin: bottom left;
 }
 
-.linkContent a.link1{
+.linkContent a.link1 {
 	grid-column: 1/2;
 	grid-row: 1;
 }
 
-.linkContent a.link2{
+.linkContent a.link2 {
 	grid-column: 2/3;
 	grid-row: 1;
 }
 
-.linkContent a.link3{
+.linkContent a.link3 {
 	grid-column: 3/4;
 	grid-row: 1;
 }
@@ -232,7 +240,7 @@ td {
 /*https://www.w3schools.com/howto/howto_css_animate_buttons.asp*/
 .buttonExample {
 	border-radius: 15px;
-	background-color: #ffff00 ;
+	background-color: #ffff00;
 	color: #736357;
 	text-align: center;
 	font-size: 28px;
@@ -245,7 +253,7 @@ td {
 	grid-column: 1;
 	grid-row: 2;
 }
-.button2{
+.button2 {
 	border-radius: 15px;
 	background-color: #ffff00;
 	color: #736357;
@@ -260,7 +268,7 @@ td {
 	grid-row: 2;
 }
 
-.button3{
+.button3 {
 	border-radius: 15px;
 	background-color: #ffff00;
 	color: #736357;
@@ -274,7 +282,7 @@ td {
 	grid-column: 3;
 	grid-row: 2;
 }
-.button3::after{
+.button3::after {
 	content: "\00bb";
 }
 
