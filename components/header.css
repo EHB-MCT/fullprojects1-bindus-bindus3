@@ -18,7 +18,6 @@ a{
 	color: black;
 }
 nav {
-	grid-column: 2/12;
 	height: 6rem;
 	width: 100%;
 	box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
@@ -104,19 +103,12 @@ nav {
 /*Stying for small screens*/
 @media screen and (max-width: 800px) {
 
-	
-.outer-header {
-	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: repeat(2, minmax(75px, auto));
-	display: grid;
-}
-.wrapper-header {
-	grid-column: 1/12;
-}
+
 
 	nav {
 		position: fixed;
 		z-index: 3;
+		width: 100%;
 	}
 	.hamburger {
 		display: block;
