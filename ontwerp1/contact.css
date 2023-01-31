@@ -1,0 +1,68 @@
+body {
+	background-color: #ffffff;
+}
+
+h1 {
+	margin-left: 5%;
+	margin-bottom: 0%;
+	color: white;
+	margin-top: -15%;
+}
+
+.vierkant {
+	background-color: #659ba4;
+	height: 300px;
+	width: 550px;
+	padding-top: 5%;
+}
+
+.belgium {
+	margin-left: 15%;
+	margin-top: -5%;
+	width: 25%;
+}
+
+.openingsuren {
+	margin-left: 5%;
+}
+
+h2 {
+	color: #659ba4;
+	margin-top: -10%;
+}
+
+p {
+	width: 7%;
+}
+
+.brussel {
+	color: #659ba4;
+	margin-left: 5%;
+}
+
+div.antwerpen {
+	color: #659ba4;
+	display: flex;
+	justify-content: center;
+	margin-top: -10%;
+	margin-right: 5%;
+}
+
+h3.antje {
+	margin-top: -2%;
+	margin-left: 30%;
+	margin-right: -6%;
+}
+
+h3.limb {
+	margin-top: -2%;
+	margin-right: -5%;
+}
+
+.limburg {
+	color: #659ba4;
+	display: flex;
+	justify-content: flex-end;
+	margin-top: -6%;
+	margin-right: 5%;
+}
