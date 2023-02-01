@@ -2,6 +2,7 @@
 
 body {
 	color: #043c4c;
+	letter-spacing: 1px;
 }
 
 a {
@@ -152,3 +153,77 @@ a {
     font-family: "PT Serif", serif;
 }
 
+@media screen and (max-width: 800px) {
+	.outer-wrapper{
+		grid-template-rows: repeat(2, minmax(75px, auto));
+	}
+	.title-text {
+		grid-column: 1/13;
+		display: grid;
+		grid-template-columns: repeat(12, 1fr);
+		grid-template-rows: repeat(6, minmax(20px, 90px));
+		column-gap: 20px;
+	}
+
+	#wieIs-title {
+		grid-column: 1/6;
+		grid-row: 1/2;
+		font-family: "Abril Fatface", cursive;
+		font-size: 90px;
+		
+	}
+	
+	#bindus-title {
+		grid-column: 1/8;
+		grid-row: 2;
+		font-family: "Abril Fatface", cursive;
+		font-size: 90px;
+	}
+	
+	#wie-img {
+		grid-column: 8/12;
+		grid-row: 2/10;
+		width: 100%;
+	}
+	
+	#paragraph-title {
+		grid-column: 1/13;
+		grid-row: 6/7;
+		font-family: "PT Serif", serif;
+		font-size: 21px;
+	}
+
+	.mission-textbubble{
+		grid-column: 1/13;
+	}
+	.mission-textbubble p{
+		padding-top: 15px;
+		padding-right: 5px;
+		font-size: 18px;
+	}
+
+	.vision{
+		grid-template-rows: repeat(10, minmax(20px, 90px));
+	}
+
+	.vision-textbubble-right{
+		grid-column: 1/13;
+	}
+
+	.vision-textbubble-right p{
+		padding-top: 15px;
+		padding-right: 5px;
+		font-size: 17px;
+	}
+
+	.vision-textbubble-left{
+		grid-column: 1/13;
+		grid-row: 8/11;
+	}
+
+	.vision-textbubble-left p{
+		padding-top: 15px;
+		padding-right: 5px;
+		font-size: 17px;
+	}
+}
