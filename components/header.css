@@ -102,14 +102,16 @@ nav {
 
 /*Stying for small screens*/
 @media screen and (max-width: 800px) {
-
-
-
 	nav {
 		position: fixed;
 		z-index: 3;
 		width: 100%;
 	}
+
+	.nav-links.open{
+		margin: 0;
+	}
+
 	.hamburger {
 		display: block;
 		position: absolute;
@@ -123,7 +125,7 @@ nav {
 	.nav-links {
 		position: fixed;
 		background: white;
-		height: 100vh;
+		height: 50vh;
 		width: 100%;
 		flex-direction: column;
 		clip-path: circle(50px at 90% -20%);
@@ -165,6 +167,7 @@ nav {
 	li.fade {
 		opacity: 1;
 	}
+
 }
 /*Animating Hamburger Icon on Click*/
 .toggle .line1 {
