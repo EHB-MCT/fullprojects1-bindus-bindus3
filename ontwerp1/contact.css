@@ -9,6 +9,7 @@ h1 {
 	margin-bottom: 0%;
 	color: white;
 	margin-top: 10%;
+	width: 100%;
 }
 
 .vierkant {
@@ -20,12 +21,13 @@ h1 {
 
 .belgium {
 	margin-left: 15%;
-	margin-top: -5%;
-	width: 25%;
+	margin-top: -10%;
+	width: 40%;
 }
 
 .openingsuren {
-	margin-left: 5%;
+	margin-left: 3%;
+	margin-top: 5%;
 }
 
 h2 {
@@ -33,18 +35,36 @@ h2 {
 	margin-top: -10%;
 }
 
-p {
-	width: 7%;
+.locaties {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-left: 1%;
 }
 
-.brussel {
-	color: black;
-	margin-left: 5%;
+.locaties div {
+	width: 28%;
+	margin-top: 10%;
 }
 
 h3.brus {
 	color: #659ba4;
 }
+
+h3.antje {
+	color: #659ba4;
+}
+
+h3.limb {
+	color: #659ba4;
+}
+
+/*
+.brussel {
+	color: black;
+	margin-left: 5%;
+}
+
 
 .antwerpen {
 	color: black;
@@ -55,9 +75,6 @@ h3.brus {
 	padding-top: 2%;
 }
 
-h3.antje {
-	color: #659ba4;
-}
 
 h3.antje {
 	margin-top: -2%;
@@ -79,6 +96,7 @@ h3.limb {
 	margin-right: 5%;
 	padding-top: -1%;
 }
+*/
 
 @media only screen and (max-width: 768px) {
 	body {
@@ -115,10 +133,13 @@ h3.limb {
 		margin-top: -10%;
 	}
 
-	p {
-		width: 7%;
+	.locaties div {
+		width: 100%;
+		margin-left: 5%;
+		margin-top: 5%;
 	}
 
+	/*
 	.brussel {
 		color: black;
 		margin-left: 5%;
@@ -157,4 +178,5 @@ h3.limb {
 		margin-top: -15%;
 		margin-right: 10%;
 	}
+	*/
 }
