@@ -18,7 +18,6 @@ a{
 	color: black;
 }
 nav {
-	grid-column: 2/12;
 	height: 6rem;
 	width: 100%;
 	box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
@@ -30,6 +29,7 @@ nav {
 	backdrop-filter: blur(2px);
 }
 
+/*https://codepen.io/hitensharma/pen/dybryGE*/
 /*Styling logo*/
 .logo {
 	padding: 1vh 1vw;
@@ -83,7 +83,7 @@ nav {
 	cursor: pointer;
 }
 .join-button:hover {
-	color: #f2f5f7;
+	color: #131418;
 	background-color: transparent;
 	border: 1.5px solid #f2f5f7;
 	transition: all ease-in-out 350ms;
@@ -93,7 +93,7 @@ nav {
 .hamburger div {
 	width: 30px;
 	height: 3px;
-	background: #f2f5f7;
+	background: black;
 	margin: 5px;
 	transition: all 0.3s ease;
 }
@@ -103,21 +103,16 @@ nav {
 
 /*Stying for small screens*/
 @media screen and (max-width: 800px) {
-
-	
-.outer-header {
-	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: repeat(2, minmax(75px, auto));
-	display: grid;
-}
-.wrapper-header {
-	grid-column: 1/12;
-}
-
 	nav {
 		position: fixed;
 		z-index: 3;
+		width: 100%;
 	}
+
+	.nav-links.open{
+		margin: 0;
+	}
+
 	.hamburger {
 		display: block;
 		position: absolute;
@@ -131,7 +126,7 @@ nav {
 	.nav-links {
 		position: fixed;
 		background: white;
-		height: 100vh;
+		height: 50vh;
 		width: 100%;
 		flex-direction: column;
 		clip-path: circle(50px at 90% -20%);
@@ -173,6 +168,7 @@ nav {
 	li.fade {
 		opacity: 1;
 	}
+
 }
 /*Animating Hamburger Icon on Click*/
 .toggle .line1 {

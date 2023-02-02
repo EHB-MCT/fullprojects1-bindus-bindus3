@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Laag_2" data-name="Laag 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67.09 58">
+<svg id="Laag_2" data-name="Laag 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 947 407.87">
   <defs>
     <style>
       .cls-1 {
-        fill: #043c4c;
+        fill: url(#linear-gradient);
+        opacity: .99;
       }
 
       .cls-2 {
+        fill: #043c4c;
         opacity: .7;
       }
     </style>
+    <linearGradient id="linear-gradient" x1="288.35" y1="-3031.66" x2="1231.99" y2="-3031.66" gradientTransform="translate(-262.29 3109.73) scale(.96)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff6e27"/>
+      <stop offset="1" stop-color="#d83347"/>
+    </linearGradient>
   </defs>
   <g id="Layer_19" data-name="Layer 19">
-    <g id="SVGRepo_iconCarrier" data-name="SVGRepo iconCarrier" class="cls-2">
-      <g id="g10449">
-        <path id="path298" class="cls-1" d="m4.75,33.45c-1.18.06-2.34-.36-3.22-1.15-1.83-1.66-1.96-4.48-.3-6.3,0,0,0,0,0,0L23.55,1.46c1.66-1.82,4.48-1.96,6.31-.3,0,0,0,0,0,0,1.83,1.66,1.96,4.48.3,6.3L7.84,32c-.8.88-1.91,1.4-3.09,1.46Z"/>
-        <path id="path908" class="cls-1" d="m4.46,33.46c-2.47,0-4.46-2-4.46-4.46,0-2.46,2-4.46,4.46-4.46h58.16c2.47,0,4.46,2,4.46,4.46,0,2.46-2,4.46-4.46,4.46H4.46Z"/>
-        <path id="path910" class="cls-1" d="m26.64,57.99c-1.18-.06-2.29-.58-3.09-1.46L1.23,32c-1.66-1.82-1.52-4.64.3-6.3,0,0,0,0,0,0,1.83-1.66,4.65-1.52,6.31.3l22.32,24.54c1.66,1.82,1.52,4.64-.3,6.3,0,0,0,0,0,0-.88.8-2.03,1.21-3.22,1.15Z"/>
-      </g>
-    </g>
+    <rect class="cls-2" x="0" y="22.83" width="947" height="385.04" transform="translate(947 430.7) rotate(180)"/>
+    <rect class="cls-1" x="13.96" width="904.04" height="386" transform="translate(931.96 386) rotate(180)"/>
   </g>
 </svg>
