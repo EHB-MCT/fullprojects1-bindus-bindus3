@@ -2,6 +2,17 @@ body {
 	margin: 0;
 	background-color: #fff;
 }
+::-webkit-scrollbar {
+	width: 20px;
+  }
+  ::-webkit-scrollbar-track {
+	background: #dddddd;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+	background: #043c4c;
+	border-radius: 10px;
+  }
 
 .wrapper {
 	display: grid;

@@ -3,6 +3,17 @@
 body {
 	color: #043c4c;
 }
+::-webkit-scrollbar {
+	width: 20px;
+  }
+  ::-webkit-scrollbar-track {
+	background: #dddddd;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+	background: #043c4c;
+	border-radius: 10px;
+  }
 
 a {
 	text-decoration: none;
