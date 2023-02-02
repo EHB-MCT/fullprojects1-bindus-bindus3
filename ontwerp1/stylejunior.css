@@ -6,9 +6,14 @@ body {
 	font-family: "PT Serif", serif;
 }
 
+nav {
+	margin-top: 10%;
+}
+
 h1 {
 	text-align: center;
 	color: #043c4c;
+	margin-top: 10%;
 }
 
 .cijfers {
@@ -91,6 +96,10 @@ h2 {
 	padding-bottom: 0;
 }
 
+nav {
+	margin-top: -10%;
+}
+
 .button {
 	border: none;
 	color: #043c4c;
@@ -140,4 +149,169 @@ h2 {
 .diversity {
 	width: 200px;
 	padding-bottom: 100px;
+}
+
+div.logo {
+}
+
+@media only screen and (max-width: 768px) {
+	body {
+		background-color: #ffffff;
+		color: #5eb0b6;
+		margin: 0;
+		font-family: "PT Serif", serif;
+	}
+
+	h1 {
+		text-align: center;
+		color: #043c4c;
+	}
+
+	.cijfers {
+		padding-top: 40px;
+		background-color: #2e5d6b;
+		width: 100%;
+		height: auto;
+		margin-left: 0;
+		position: relative;
+		z-index: 1;
+		color: black;
+		text-align: center;
+	}
+
+	.insta {
+		margin-left: 5%;
+	}
+
+	.facebook {
+		margin-left: 5%;
+	}
+
+	.twitter {
+		margin-left: 5%;
+	}
+
+	.cijfers1 {
+		text-align: center;
+		padding-top: 0;
+		background-color: #b7dcdb;
+		width: 100%;
+		height: auto;
+		margin-left: 0;
+		margin-top: 0;
+	}
+
+	.cijfers2 {
+		padding-top: 15%;
+		background-color: #04838b;
+		width: 100%;
+		margin-left: 0;
+		margin-top: 5;
+		height: 200px;
+		position: relative;
+		color: black;
+		text-align: center;
+	}
+
+	.social {
+		display: flex;
+		flex-wrap: wrap;
+		background-color: #2e5d6b;
+		width: 50%;
+		margin-left: 25%;
+	}
+
+	.social div:nth-child(even) {
+		width: 80%;
+	}
+
+	.social div:nth-child(odd) {
+		width: 20%;
+	}
+
+	.niewsbrief {
+		background-color: white;
+		text-align: center;
+		padding-bottom: 10%;
+		padding-top: 5%;
+		margin-top: 50px;
+		color: #043c4c;
+	}
+
+	img {
+		width: 30px;
+	}
+
+	h2 {
+		text-align: center;
+		padding-bottom: 0;
+	}
+
+	.button {
+		border: none;
+		color: #043c4c;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+		background-color: white;
+		border: 2px solid #043c4c;
+		border-radius: 12px;
+		width: 150px;
+
+		/*https://www.w3schools.com/tags/tag_button.asp*/
+	}
+
+	.button2 {
+		border: none;
+		color: #043c4c;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+		background-color: white;
+		border: 2px solid #043c4c;
+		border-radius: 12px;
+		width: 150px;
+
+		/*https://www.w3schools.com/tags/tag_button.asp*/
+	}
+
+	.bureau {
+		width: 50px;
+		display: none;
+	}
+
+	.bureau2 {
+		width: 50px;
+		margin-right: 80%;
+		margin-top: -10%;
+	}
+
+	.diversity {
+		width: 50px;
+		padding-bottom: 100px;
+	}
+
+	nav {
+		padding-top: 10%;
+	}
+
+	img.bureau {
+		width: 60%;
+	}
+
+	img.bureau2 {
+		display: none;
+	}
+
+	img.diversity {
+		display: none;
+	}
 }

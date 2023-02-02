@@ -2,6 +2,7 @@
 
 body {
 	color: #043c4c;
+	letter-spacing: 1px;
 }
 
 a {
@@ -34,22 +35,23 @@ a {
 }
 
 #wieIs-title {
-	grid-column: 1/5;
+	grid-column: 1/12;
 	grid-row: 1/2;
 	font-family: "Abril Fatface", cursive;
 	font-size: 140px;
+	
     
 }
 
 #bindus-title {
-	grid-column: 2/7;
+	grid-column: 2/13;
 	grid-row: 3/5;
 	font-family: "Abril Fatface", cursive;
-	font-size: 140px;
+	font-size: 140px;z-index: 2;
 }
 
 #wie-img {
-	grid-column: 8/12;
+	grid-column: 9/13;
 	grid-row: 2/10;
 	width: 100%;
 }
@@ -151,4 +153,162 @@ a {
 	color: white;
     font-family: "PT Serif", serif;
 }
+@media screen and (max-width: 1148px) {
+	#paragraph-title {
+		grid-column: 1/10;
+		grid-row: 7/9;
+		
+	}
+}
 
+@media screen and (max-width: 800px) {
+	.outer-wrapper{
+		grid-template-rows: repeat(2, minmax(75px, auto));
+	}
+	.title-text {
+		grid-column: 1/13;
+		display: grid;
+		grid-template-columns: repeat(12, 1fr);
+		grid-template-rows: repeat(6, minmax(20px, 90px));
+		column-gap: 20px;
+	}
+
+	#wieIs-title {
+		grid-column: 1/11;
+		grid-row: 1/2;
+		font-family: "Abril Fatface", cursive;
+		font-size: 90px;
+		
+	}
+	
+	#bindus-title {
+		grid-column: 1/13;
+		grid-row: 2;
+		font-family: "Abril Fatface", cursive;
+		font-size: 90px;
+	}
+	
+	#wie-img {
+		grid-column: 9/13;
+		grid-row: 2/10;
+		width: 100%;
+	}
+	
+	#paragraph-title {
+		grid-column: 1/13;
+		grid-row: 6/9;
+		font-family: "PT Serif", serif;
+		font-size: 21px;
+	}
+
+	.mission-textbubble{
+		grid-column: 1/13;
+		grid-template-columns: repeat(12, 1fr);
+		grid-template-rows: repeat(6, minmax(20px, 90px));
+		display: grid;
+		border-radius: 15px;
+	}
+	.mission-textbubble p{
+		grid-column: 1/13;
+		padding: 5px 0px 0px 5px;
+		font-size: 17px;
+	}
+
+	.vision{
+		grid-template-rows: repeat(12, minmax(20px, 90px));
+	}
+
+	.vision-textbubble-right{
+		grid-column: 1/13;
+		grid-template-columns: repeat(12, 1fr);
+		grid-template-rows: repeat(6, minmax(20px, 90px));
+		display: grid;
+		border-radius: 15px;
+	}
+
+	.vision-textbubble-right p{
+		grid-column: 1/13;
+		padding: 5px 0px 0px 5px;
+		font-size: 17px;
+	}
+
+	.vision-textbubble-left{
+		grid-column: 1/13;
+		grid-template-columns: repeat(12, 1fr);
+		grid-template-rows: repeat(1, minmax(20px, 90px));
+		display: grid;
+		border-radius: 15px;
+	}
+
+	.vision-textbubble-left p{
+		grid-column: 1/13;
+		padding: 5px 0px 0px 5px;
+		font-size: 17px;
+	}
+}
+
+@media screen and (max-width: 675px) {
+	
+	.mission-textbubble p{
+		font-size: 13px;
+	}
+
+	.vision-textbubble-right p{
+		font-size: 13px;
+	}
+
+	.vision-textbubble-left p{
+		font-size: 13px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+
+	#wieIs-title {
+		grid-column: 1/11;
+		grid-row: 2/3;
+		font-family: "Abril Fatface", cursive;
+		font-size: 50px;
+		
+	}
+	
+	#bindus-title {
+		grid-column: 1/13;
+		grid-row: 3/4;
+		font-family: "Abril Fatface", cursive;
+		font-size: 50px;
+	}
+	
+	#wie-img {
+		grid-column: 9/13;
+		grid-row: 3/10;
+		width: 100%;
+	}
+	
+	#paragraph-title {
+		grid-column: 1/13;
+		grid-row: 6/9;
+		font-family: "PT Serif", serif;
+		font-size: 21px;
+	}
+
+
+	.vision-textbubble-right{
+		grid-column: 1/13;
+		grid-row: 3/8;
+		grid-template-columns: repeat(12, 1fr);
+		grid-template-rows: repeat(7, minmax(20px, 90px));
+		display: grid;
+		border-radius: 15px;
+	}
+
+	.vision-textbubble-left{
+		grid-column: 1/13;
+		grid-row: 9/13;
+		grid-template-columns: repeat(12, 1fr);
+		grid-template-rows: repeat(1, minmax(20px, 90px));
+		display: grid;
+		border-radius: 15px;
+	}
+
+}

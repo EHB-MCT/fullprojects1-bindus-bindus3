@@ -25,7 +25,9 @@
 .hero_left img {
 	border: 4px solid #043c4c;
 	border-radius: 5px;
+	
 }
+
 
 .hero_right {
 	display: flex;
@@ -122,9 +124,36 @@
 	color: white;
 }
 
+.rect1{
+	margin-left: -15%;
+	padding-top: 15%;
+}
+.r{
+	margin-left: -10%;
+	
+	
+}
+.r2{
+	margin-left: 10%;
+}
+.r3{
+	margin-top: -50%;
+}
+.rect2{
+	display: flex ;
+	margin-left: 10%;	
+	
+}
+
+.rect3{
+	margin-left: -40%;
+	margin-top: -50%;
+}
+
 .right-container {
 	align-self: flex-end;
 }
+
 
 @media only screen and (max-width: 768px) {
 	.spacing {
