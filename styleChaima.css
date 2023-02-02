@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+
 /*HERO START*/
 body {
 	margin: 0;
@@ -5,15 +7,15 @@ body {
 }
 ::-webkit-scrollbar {
 	width: 20px;
-  }
-  ::-webkit-scrollbar-track {
+}
+::-webkit-scrollbar-track {
 	background: #dddddd;
-  }
-  
-  ::-webkit-scrollbar-thumb {
+}
+
+::-webkit-scrollbar-thumb {
 	background: #043c4c;
 	border-radius: 10px;
-  }
+}
 
 .hero {
 	width: 100%;
@@ -23,6 +25,7 @@ body {
 .wrapper {
 	display: flex;
 	justify-content: flex-start;
+	padding-top: 10%;
 }
 
 #title {
@@ -30,6 +33,7 @@ body {
 	margin-bottom: 6%;
 	width: 30%;
 	color: #043c4c;
+	font-family: "PT Serif", serif;
 }
 
 h1 {
