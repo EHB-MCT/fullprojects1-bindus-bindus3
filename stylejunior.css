@@ -1,22 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 body {
 	background-color: #ffffff;
 	color: #5eb0b6;
 	margin: 0;
 	font-family: "PT Serif", serif;
+	height: 700vh;
 }
 ::-webkit-scrollbar {
 	width: 20px;
-  }
-  ::-webkit-scrollbar-track {
+}
+::-webkit-scrollbar-track {
 	background: #dddddd;
-  }
-  
-  ::-webkit-scrollbar-thumb {
+}
+
+::-webkit-scrollbar-thumb {
 	background: #043c4c;
 	border-radius: 10px;
-  }
-  
+}
 
 nav {
 	margin-top: 10%;
@@ -26,10 +28,10 @@ h1 {
 	text-align: center;
 	color: #043c4c;
 	margin-top: 10%;
+	font-family: "Abril Fatface", cursive;
 }
 
 p {
-	font-family: "Abril fatface";
 }
 
 .cijfers {
@@ -110,6 +112,7 @@ img {
 h2 {
 	text-align: center;
 	padding-bottom: 0;
+	font-family: "Abril Fatface", cursive;
 }
 
 nav {
@@ -148,7 +151,6 @@ nav {
 	border: 2px solid #043c4c;
 	border-radius: 12px;
 	width: 150px;
-
 	/*https://www.w3schools.com/tags/tag_button.asp*/
 }
 
