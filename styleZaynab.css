@@ -5,6 +5,17 @@
 .container-spacing {
 	margin-bottom: 5vh;
 }
+::-webkit-scrollbar {
+	width: 20px;
+  }
+  ::-webkit-scrollbar-track {
+	background: #dddddd;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+	background: #043c4c;
+	border-radius: 10px;
+  }
 
 .hero {
 	display: grid;
@@ -125,7 +136,7 @@
 }
 
 .rect1{
-	margin-left: -15%;
+	margin-left: -20%;
 	padding-top: 15%;
 }
 .r{
@@ -146,8 +157,8 @@
 }
 
 .rect3{
-	margin-left: -40%;
-	margin-top: -50%;
+	margin-left: -50%;
+	margin-top: -60%;
 }
 
 .right-container {
@@ -195,4 +206,26 @@
 	.description-container .description {
 		width: 70vw;
 	}
+
+
+.rect3{
+	margin-left: -30%;
+
+
+
+
+
+
+
+	
+	
+	
+}
+
+div.rectangle {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-left: 100%;
+}
 }
