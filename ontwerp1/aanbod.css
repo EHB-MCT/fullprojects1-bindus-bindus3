@@ -200,7 +200,6 @@ a {
 .subscribe {
 	grid-column: 1/13;
 	grid-row: 15/17;
-	border: 3px solid black;
 	text-align: center;
 }
 
