@@ -185,7 +185,7 @@ hr {
   grid-column: 1/13;
   grid-row: 12/13;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(20, minmax(75px, auto));
+  grid-template-rows: repeat(16, minmax(75px, auto));
   display: grid;
 }
 
