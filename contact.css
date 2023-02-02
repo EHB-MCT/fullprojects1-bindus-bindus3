@@ -2,6 +2,18 @@
 body {
 	background-color: #ffffff;
 	font-family: "PT Serif", serif;
+	height: 700vh;
+}
+::-webkit-scrollbar {
+	width: 20px;
+}
+::-webkit-scrollbar-track {
+	background: #dddddd;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #043c4c;
+	border-radius: 10px;
 }
 
 h1 {
@@ -15,14 +27,15 @@ h1 {
 .vierkant {
 	background-color: #659ba4;
 	height: 300px;
-	width: 550px;
+	width: 600px;
 	padding-top: 5%;
+	margin-left: 5%;
 }
 
 .belgium {
-	margin-left: 15%;
+	margin-left: 45%;
 	margin-top: -10%;
-	width: 40%;
+	width: 50%;
 }
 
 .openingsuren {

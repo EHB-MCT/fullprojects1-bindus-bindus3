@@ -3,11 +3,21 @@ body {
 	margin: 0;
 	box-sizing: border-box;
 }
+::-webkit-scrollbar {
+	width: 20px;
+  }
+  ::-webkit-scrollbar-track {
+	background: #dddddd;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+	background: #043c4c;
+	border-radius: 10px;
+  }
 
 .hero {
 	width: 100%;
 	height: 100%;
-	
 }
 
 .wrapper {
@@ -19,7 +29,7 @@ body {
 	margin-left: 5%;
 	margin-bottom: 6%;
 	width: 30%;
-	color: #043c4c ;
+	color: #043c4c;
 }
 
 h1 {
@@ -41,23 +51,20 @@ h1 {
 	margin-left: 30%;
 	margin-right: 10%;
 	align-items: center;
-	
 }
 
 .bigsquare {
-	background-color:#043c4c;
+	background-color: #043c4c;
 	width: 600px;
 	height: 400px;
 	opacity: 70%;
 }
-
 
 .container2 #square1 img {
 	display: flex;
 	margin-left: -38%;
 	width: 175px;
 	height: 250px;
-	
 }
 
 .container2 #square2 img {
@@ -66,7 +73,6 @@ h1 {
 	height: 250px;
 	margin-top: -15%;
 	margin-left: -7%;
-
 }
 
 .hero img {
@@ -74,7 +80,6 @@ h1 {
 	height: 320px;
 	position: absolute;
 	margin-left: 77px;
-	
 }
 
 .container3 {
@@ -94,6 +99,7 @@ h1 {
 /*SECOND HERO START*/
 .page {
 	display: flex;
+	color: aliceblue;
 }
 
 .rectangle1 {
@@ -122,7 +128,7 @@ h1 {
 	position: absolute;
 	top: 0;
 	right: 0;
-	width:  40%;
+	width: 40%;
 	margin-top: -30px;
 }
 
@@ -130,26 +136,23 @@ h1 {
 	position: absolute;
 	top: 0;
 	right: 0;
-	width:  40%;
+	width: 40%;
 	margin-top: -30px;
-
-	}
+}
 /*SECOND HERO END*/
 /*THIRD HERO START*/
 
 .page2 {
 	display: flex;
-	flex-direction:row;
+	flex-direction: row;
 	justify-content: center;
 	justify-content: space-evenly;
 	margin-top: 5%;
-
-
 }
-#hexagon1{
+#hexagon1 {
 	width: 500px;
 }
-#hexagon2{
+#hexagon2 {
 	width: 500px;
 }
 
@@ -172,14 +175,13 @@ h1 {
 	margin-top: 600px;
 	height: 220px;
 	margin-right: 150px;
-	
 }
 
 #rec3 {
 	position: absolute;
 	top: 0;
 	right: 0;
-	width:  40%;
+	width: 40%;
 	margin-top: -30px;
 }
 
@@ -187,10 +189,12 @@ h1 {
 	position: absolute;
 	top: 0;
 	right: 0;
-	width:  40%;
+	width: 40%;
 	margin-top: -30px;
-
 }
+
 .page3 {
 	display: flex;
+	color: aliceblue;
+	margin-bottom: 13%;
 }
