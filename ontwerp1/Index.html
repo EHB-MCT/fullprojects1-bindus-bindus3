@@ -4,12 +4,23 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="styleSafae.css" />
+		<script
+			src="https://code.jquery.com/jquery-2.2.0.min.js"
+			type="text/javascript"
+		></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="/carousel/style.css" />
+		<script src="/carousel/script.js"></script>
 		<link rel="stylesheet" href="/components/header.css" />
 		<link rel="stylesheet" href="/components/footer.css" />
-		<title>Bindus 03</title>
+		<link rel="stylesheet" href="index.css" />
+		<title>Document</title>
 	</head>
+
 	<body>
+		<!--HEADER START---------------------------------------------------------------------------------------------------------->
+
 		<div class="wrapper-header">
 			<nav>
 				<div class="logo">
@@ -33,84 +44,318 @@
 				</ul>
 			</nav>
 		</div>
-
 		<script src="/components/script.js"></script>
-
-		<div class="wrapper">
-			<h1 class="title">Bindus verbindt!</h1>
-			<div class="home">
-				<img src="/SVG/SVG/SVG/SVG/image home.svg" />
+		<!--HEADER END------------------------------------------------------------------------------------------------------------>
+		<div class="top-wrapper">
+			<div class="topContainer">
+				<div class="titleBindus">Bindus</div>
+				<div class="titleVerbindt">verbindt!</div>
+				<img id="topPage" src="/images/SVG/topPage.svg" />
 			</div>
-			<div class="lijn"></div>
-
-			<div class="partners">
-				<h2>Partners</h2>
-			</div>
+			<hr />
 		</div>
-
-		<div class="wrapper">
-			<div class="bannerP">
-				<img src="/SVG/SVG/SVG/SVG/banner1.svg" />
-			</div>
-
-			<section>
-				<div class="st2">
-					<img src="/SVG/SVG/SVG/SVG/st2.svg" />
-					<div class="foto">
-						<img src="/images/foto home.jpg" />
-					</div>
+		<!--START PARTNER ROLL-->
+		<div class="container">
+			<section class="customer-logos slider">
+				<div class="slide">
+					<img
+						src="/partners/partners-slider/koningBoudewijnstichting.png"
+					/>
+				</div>
+				<div class="slide">
+					<img
+						src="/partners/partners-slider/socius.png"
+					/>
+				</div>
+				<div class="slide">
+					<img
+						src="/partners/partners-slider/minderhedenForum.png"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/deFederatie.png"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/FMV.jfif"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/willemFonds.png"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/faro.png"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/amsab.png"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/unizo.png"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/manpower.png"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/actiris.png"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/vdab.jfif"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/vub.png"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/cemis.jfif"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/bosa.png"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/kdg.png"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/oggpa.jfif"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/agentschapIntegratieInburgering.png"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/JES.png"
+					/>
+				</div><div class="slide">
+					<img
+					src="/partners/partners-slider/wwz.png"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/jint.png"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/RIMO.png"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/odisee.png"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/kennisCentrumSociaalEuropa.png"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/unia.svg"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/groepIntro.jfif"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/orbit.png" id="slide-orbit"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/bon.png"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/mijnerfgoed.jfif"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/fedasil.jfif"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/decentrale.png"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/socare.png"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/stadsMakers.jfif"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/tenNoey.png"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/deKriekelaar.png"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/monty.png"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/traceBrussel.png"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/cgg.png"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/beringen.png"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/uhasselt.png"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/ocmw.jfif"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/huisVanHetKind.png"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/basisEducatie.png"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/youthStart.png"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/arenberg.jfif"
+					/>
+				</div>
+				<div class="slide">
+					<img
+					src="/partners/partners-slider/unik.png"
+					/>
 				</div>
 			</section>
-
-			<div class="textz">
-				<p>
-					Wij bieden werkzoekenden persoonlijke begeleiding naar opleiding en werk aan.
-				</p>
-				<br>
-				<p>
-					Wij versterken de digitale geletterdheid in de maatschappij met onze digitale opleidingen en moedigen zo levenslang en levensbreed leren .
-				</p>
-				<br>
-				<p>Wij stimuleren kwalitatieve inspraak van vrijwilligers, ondersteuning en participatie.</p>
-				<br>
-				<p>
-					Wij bieden onze leden administratieve, adviserende en inhoudelijke ondersteuning aan.
-				</p>
-			</div>
-
-			<div class="logo1">
-				<img src="/SVG/SVG/SVG/SVG/logo's 1.svg" />
-			</div>
-
-			<div class="logo2">
-				<img src="/SVG/SVG/SVG/SVG/logo's 2.svg" />
-			</div>
-
-			<div class="st3">
-				<img src="/SVG/1x/png.png" />
-			</div>
-			
-
-			<div class="texta">
-			
-				<p>
+		</div>
+		
+		<!--END PARTNER ROLL-->
+		<div class="bottom-wrapper"><hr id="divider-partner-bottom">
+			<div class="bottom-container">
+				<img id="bottom-top-img" src="/images/bottomPage-top.png" />
+				<img id="world-icon" src="/images/SVG/world-icon.svg" />
+				<p id="world-icon-p">
 					Wij bieden vormingen op maat aan rond migratie, erfgoed, diversiteit
 					en digitalisering.
 				</p>
-				<br>
-				<p>
+				<img id="meeting-icon" src="/images/SVG/meeting-icon.svg" />
+				<p id="meeting-icon-p">
 					Wij engageren ons samen met onze leden en partners voor projecten en
 					samenwerkingen rond inclusie, superdiversiteit en interculturaliteit.
 				</p>
-				<br>
-				<p>Wij bouwen een activiteitenaanbod uit, zowel landelijk als lokaal</p>
-				<br>
-				<p>
+				<img id="work-icon" src="/images/SVG/work-icon.svg" />
+				<p id="work-icon-p">
+					Wij bouwen een activiteitenaanbod uit, zowel landelijk als lokaal
+				</p>
+				<img id="bigscreen-icon" src="/images/SVG/bigscreen-icon.svg" />
+				<p id="bigscreen-icon-p">
 					Wij zetten in op conversatietafels waar anderstaligen hun Nederlands
 					kunnen oefenen.
 				</p>
+				<img id="meeting2-icon" src="/images/SVG/meeting2-icon.svg" />
+				<p id="meeting2-icon-p">
+					Wij bieden werkzoekenden persoonlijke begeleiding naar opleiding en
+					werk aan.
+				</p>
+				<img id="laptop-icon" src="/images/SVG/laptop-icon.svg" />
+				<p id="laptop-icon-p">
+					Wij versterken de digitale geletterdheid in de maatschappij met onze
+					digitale opleidingen en moedigen zo levenslang en levensbreed leren en
+					werken aan.
+				</p>
+				<img id="arrowup-icon" src="/images/SVG/arrowup-icon.svg" />
+				<p id="arrowup-icon-p">
+					Wij stimuleren kwalitatieve inspraak van vrijwilligers, ondersteuning
+					en participatie.
+				</p>
+				<img id="love-icon" src="/images/SVG/love-icon.svg" />
+				<p id="love-icon-p">
+					Wij bieden onze leden administratieve, adviserende en inhoudelijke
+					ondersteuning aan.
+				</p>
+				<img id="bottom-bottom-img" src="/images/bottomPage-bottom.png" />
+				<hr id="divider-bottom-numbers" />
+
+				<h1 id="titleNumbers">De impact van Bindus in cijfers 2019</h1>
+				<div class="numbers">
+					<img id="numbers-img" src="/images/SVG/cijfers.svg" />
+					<p id="numbers-insta">3,700</p>
+					<p id="numbers-facebook">16,232</p>
+					<p id="numbers-twitter">6,244</p>
+					<p id="numbers-volunteers">107 vrijwilligers</p>
+					<p id="numbers-nationalities">13 verschillende nationaliteiten</p>
+					<p id="numbers-activities">704 Activiteiten met lidverenigingen</p>
+					<p id="numbers-people">20000 Mensen bereikt</p>
+				</div>
+				<div class="subscribe">
+					<p id="subscribe-title">Schrijf je in voor onze agenda</p>
+					<input type="text" value="E-mailadres" id="subscribe-box" /><br />
+					<a href="#" id="subscribe-button">Inschrijven</a>
+				</div>
 			</div>
 		</div>
+
+		<!--FOOTER START---------------------------------------------------------------------------------------------------------->
 		<div class="wrapper-footer">
 			<footer>
 				<div class="footer-logo">
@@ -120,8 +365,12 @@
 					<h3>Met steun van</h3>
 					<div class="partner-container">
 						<div class="top-row">
-							<img src="/partners/Vlaanderen-verbeelding-werkt_vol_zwart-300x117.png" />
-							<img src="/partners/vgc_logo_n_horizontaal_administratieblauw_pos.svg" />
+							<img
+								src="/partners/Vlaanderen-verbeelding-werkt_vol_zwart-300x117.png"
+							/>
+							<img
+								src="/partners/vgc_logo_n_horizontaal_administratieblauw_pos.svg"
+							/>
 						</div>
 						<div class="bottom-row">
 							<img src="/partners/Middel-1-1.svg" />
@@ -148,5 +397,6 @@
 				</div>
 			</footer>
 		</div>
+		<!--FOOTER END---------------------------------------------------------------------------------------------------------->
 	</body>
 </html>
