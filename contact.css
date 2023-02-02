@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 body {
 	background-color: #ffffff;
 	font-family: "PT Serif", serif;
-	height: 700vh;
 }
 ::-webkit-scrollbar {
 	width: 20px;
@@ -22,6 +23,7 @@ h1 {
 	color: white;
 	margin-top: 10%;
 	width: 100%;
+	font-family: "Abril Fatface", cursive;
 }
 
 .vierkant {
