@@ -225,7 +225,7 @@ body {
   text-decoration: none;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 480px) {
     .outer-wrapper {
         grid-template-columns: repeat(12, 1fr);
         grid-template-rows: repeat(17, minmax(75px, auto));
@@ -278,7 +278,7 @@ body {
 
   #caption-happening {
     grid-column: 1/13;
-    grid-row: 10/12;
+    grid-row: 11/12;
     color: #043c4c;
     text-align: center;
   }

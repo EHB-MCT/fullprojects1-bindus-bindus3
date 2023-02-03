@@ -215,36 +215,54 @@ hr {
 
 #numbers-insta{
   grid-column: 7/12;
-  grid-row: 4;
+  grid-row: 3/4;
+}
+
+#numbers-insta-img{
+  grid-column: 6/7;
+  grid-row: 3/4;
+  width: 50%;
 }
 
 #numbers-facebook{
   grid-column: 7/12;
-  grid-row: 5;
+  grid-row: 4/5;
+}
+
+#numbers-facebook-img{
+  grid-column: 6/7;
+  grid-row: 4/5;
+  width: 50%;
 }
 
 #numbers-twitter{
   grid-column: 7/12;
-  grid-row: 6;
+  grid-row: 5/6;
+}
+
+#numbers-twitter-img{
+  grid-column: 6/7;
+  grid-row: 5/6;
+  width: 50%;
 }
 
 #numbers-volunteers{
-  grid-column: 3/4;
-  grid-row: 4;
+  grid-column: 3/5;
+  grid-row: 3/4;
 }
 
 #numbers-nationalities{
-  grid-column: 3/4;
-  grid-row: 5;
+  grid-column: 3/5;
+  grid-row: 4/9;
 }
 
 #numbers-activities{
-  grid-column: 9/12;
+  grid-column: 8/12;
   grid-row: 12;
 }
 
 #numbers-people{
-  grid-column: 9/12;
+  grid-column: 8/12;
   grid-row: 13;
 }
 
@@ -307,7 +325,7 @@ hr {
     grid-column: 2/13;
     grid-row: 6;
     font-size: 50px;
-    z-index: 4;
+    z-index: 2;
   }
 
   #bottom-top-img {
@@ -446,17 +464,32 @@ hr {
   
   #numbers-insta{
     grid-column: 7/12;
-    grid-row: 2;
+    grid-row: 2/3;
+  }
+
+  #numbers-insta-img{
+    grid-column: 6/7;
+    grid-row: 2/3;
   }
   
   #numbers-facebook{
     grid-column: 7/12;
-    grid-row: 4;
+    grid-row: 4/5;
+  }
+
+  #numbers-facebook-img{
+    grid-column: 6/7;
+    grid-row: 4/5;
   }
   
   #numbers-twitter{
     grid-column: 7/12;
-    grid-row: 6;
+    grid-row: 6/7;
+  }
+
+  #numbers-twitter-img{
+    grid-column: 6/7;
+    grid-row: 6/7;
   }
   
   #numbers-volunteers{
