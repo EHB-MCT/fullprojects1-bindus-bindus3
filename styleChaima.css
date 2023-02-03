@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+
+/*HERO START*/
+body {
+	margin: 0;
+	box-sizing: border-box;
+}
+::-webkit-scrollbar {
+	width: 20px;
+}
+::-webkit-scrollbar-track {
+	background: #dddddd;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #043c4c;
+	border-radius: 10px;
+}
+
+.hero {
+	width: 100%;
+	height: 100%;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: flex-start;
+	padding-top: 10%;
+}
+
+#title {
+	margin-left: 5%;
+	margin-bottom: 6%;
+	width: 30%;
+	color: #043c4c;
+	font-family: "PT Serif", serif;
+}
+
+p {
+	font-family: "PT Serif", serif;
+}
+
+h1 {
+	font-weight: bolder;
+	font-size: 400%;
+	font-family: "Abril Fatface", cursive;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	margin-left: 5%;
+	margin-top: -15%;
+}
+
+.container2 {
+	display: flex;
+	width: 600px;
+	height: 400px;
+	margin-left: 30%;
+	margin-right: 10%;
+	align-items: center;
+}
+
+.bigsquare {
+	background-color: #043c4c;
+	width: 600px;
+	height: 400px;
+	opacity: 70%;
+}
+
+.container2 #square1 img {
+	display: flex;
+	margin-left: -38%;
+	width: 175px;
+	height: 250px;
+}
+
+.container2 #square2 img {
+	display: flex;
+	width: 175px;
+	height: 250px;
+	margin-top: -15%;
+	margin-left: -7%;
+}
+
+.hero img {
+	width: 450px;
+	height: 320px;
+	position: absolute;
+	margin-left: 77px;
+}
+
+.container3 {
+	margin-top: 10%;
+	margin-left: 5%;
+}
+
+.bar {
+	height: 3px;
+	width: 50%;
+	background-color: #043c4c;
+	margin-top: 11%;
+	margin-left: 25%;
+}
+/*HERO END*/
+
+/*SECOND HERO START*/
+.page {
+	display: flex;
+	color: aliceblue;
+}
+
+.rectangle1 {
+	width: 1380px;
+	border-radius: 100px;
+	background-color: #043c4cbb;
+	position: relative;
+	padding: 80px;
+	height: 220px;
+	margin-top: 9%;
+	margin-left: 150px;
+}
+
+.rectangle2 {
+	width: 1380px;
+	border-radius: 100px;
+	background-color: #043c4cbb;
+	position: relative;
+	padding: 80px 60px;
+	margin-top: 600px;
+	height: 220px;
+	margin-right: 150px;
+}
+
+#rec1 img {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 40%;
+	margin-top: -30px;
+}
+
+#rec2 img {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 40%;
+	margin-top: -30px;
+}
+/*SECOND HERO END*/
+/*THIRD HERO START*/
+
+.page2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-content: space-evenly;
+	margin-top: 5%;
+}
+#hexagon1 {
+	width: 500px;
+}
+#hexagon2 {
+	width: 500px;
+}
+
+.rectangle3 {
+	width: 1380px;
+	border-radius: 100px;
+	background-color: #043c4cbb;
+	position: relative;
+	padding: 80px;
+	height: 220px;
+	margin-top: 9%;
+	margin-left: 150px;
+}
+.rectangle4 {
+	width: 1380px;
+	border-radius: 100px;
+	background-color: #043c4cbb;
+	position: relative;
+	padding: 80px 60px;
+	margin-top: 600px;
+	height: 220px;
+	margin-right: 150px;
+}
+
+#rec3 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 40%;
+	margin-top: -30px;
+}
+
+#rec4 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 40%;
+	margin-top: -30px;
+}
+
+.page3 {
+	display: flex;
+	color: aliceblue;
+	margin-bottom: 13%;
+}
